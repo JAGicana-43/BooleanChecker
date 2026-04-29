@@ -9,3 +9,6 @@ console.assert(booWho(true) === true, "Test 2 Failed");
 
 //Test: 3
 console.assert(booWho(false) === true, "Test 3 Failed");
+
+//Test: 4
+console.assert(booWho([1, 2, 3]) === false, "Test 4 Failed");
