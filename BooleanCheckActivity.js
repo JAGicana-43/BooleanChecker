@@ -21,3 +21,6 @@ console.assert(booWho({ "a": 1 }) === false, "Test 6 Failed");
 
 //Test: 7
 console.assert(booWho(1) === false, "Test 7 Failed");
+
+//Test: 8
+console.assert(booWho(NaN) === false, "Test 8 Failed");
