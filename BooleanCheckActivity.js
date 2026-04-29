@@ -18,3 +18,6 @@ console.assert(booWho([].slice) === false, "Test 5 Failed");
 
 //Test: 6
 console.assert(booWho({ "a": 1 }) === false, "Test 6 Failed");
+
+//Test: 7
+console.assert(booWho(1) === false, "Test 7 Failed");
