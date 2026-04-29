@@ -12,3 +12,6 @@ console.assert(booWho(false) === true, "Test 3 Failed");
 
 //Test: 4
 console.assert(booWho([1, 2, 3]) === false, "Test 4 Failed");
+
+//Test: 5
+console.assert(booWho([].slice) === false, "Test 5 Failed");
