@@ -34,4 +34,6 @@ console.assert(booWho("true") === false, "Test 10 Failed");
 //Test: 11
 console.assert(booWho("false") === false, "Test 11 Failed");
 
+console.log("All tests passed!");
+
 
